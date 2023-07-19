@@ -344,6 +344,7 @@ nav .followUs .icons {
   -moz-transition: all linear 0.3s;
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
+  border: 1px solid var(--pink);
   opacity: 0;
   visibility: hidden;
 }
