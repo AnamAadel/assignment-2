@@ -127,6 +127,12 @@ nav .followUs {
   align-items: center;
   gap: 1.5rem;
   color: var(--gray-800);
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 nav .followUs .icons {
   display: flex;
@@ -344,7 +350,12 @@ nav .followUs .icons {
   -moz-transition: all linear 0.3s;
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
-  border: 1px solid var(--pink);
+  border: 2px solid var(--pink);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
   opacity: 0;
   visibility: hidden;
 }
