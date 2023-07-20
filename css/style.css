@@ -465,7 +465,6 @@ footer .footer_bottom {
 /* media query small and medium devices */
 @media screen and (max-width: 920px) {
   .nav_content,
-  nav .menu,
   #gammer,
   #play_instant {
     flex-direction: column;
@@ -516,6 +515,9 @@ footer .footer_bottom {
 }
 /* media query small devices */
 @media screen and (max-width: 720px) {
+  nav .menu {
+    flex-direction: column;
+  }
   #banner .banner_info,
   #banner .banner_image,
   #gammer .gammer_info,
